@@ -25,7 +25,8 @@ class Product {
     public String toString() { return pid + " " + pname + " " + price; }
 }
 
-public class Main2 {
+
+public class PBJL6 {
     public static void main(String[] args) {
         List<Employee> employees = Arrays.asList(
             new Employee(1,"Alice",50000),
