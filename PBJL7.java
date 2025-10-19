@@ -1,7 +1,7 @@
 import java.sql.*;
 import java.util.*;
 
-public class Main7 {
+public class PBJL7 {
     static final String URL = "jdbc:mysql://localhost:3306/studentdb";
     static final String USER = "root";
     static final String PASS = "MySQL@1234"; // change if needed
