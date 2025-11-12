@@ -31,7 +31,47 @@ Replace "Example" with the actual class name you want to run.
 
 - Each exercise is provided as a separate .java file. File names generally match their public class names.
 - If a program depends on other classes in the folder, compile them together (javac *.java).
+User Input:
 
+User enters personal details: Name, Age, Gender, Location.
+
+User selects up to three symptoms from a dropdown list.
+
+Symptom Selection Handling:
+
+The system prevents duplicate symptom selection to ensure accurate diagnosis.
+
+Diagnosis Process:
+
+The app compares the selected symptoms with a predefined disease dataset.
+
+Matches are identified where all selected symptoms correspond to a disease.
+
+Result Generation:
+
+Displays disease name, treatment suggestions, and prevention tips.
+
+If no match is found, advises the user to consult a doctor.
+
+Location-Based Recommendations:
+
+Provides Google Maps links to nearby hospitals or medical shops based on symptoms and location.
+
+User Interface:
+
+Built using Java Swing with a clean and responsive GUI.
+
+Includes input forms, dropdowns, and a scrollable results area for diagnosis outcomes.
+
+Dataset Management:
+
+Uses a hardcoded dataset of common diseases and associated symptoms, treatments, and prevention methods.
+
+Overall Goal:
+
+Helps users get a quick preliminary assessment of their health.
+
+Promotes awareness of possible diseases and encourages timely medical consultation.
 ## Style and conventions
 
 - Follow standard Java naming conventions: PascalCase for class names, camelCase for methods and variables.
